@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Default Dark Theme */
+  --color-bg-dark: var(--bg-color, #0B0C10);
+  --color-card-dark: var(--card-color, #15161D);
+  --color-accent-purple: var(--accent-color, #9D4EDD);
+  --color-accent-blue: #4361EE;
+  --color-accent-pink: #F72585;
+  --color-text-muted: #8E9299;
+  --color-hacker-green: #00FF41;
+}
+
+@layer base {
+  :root {
+    --bg-color: #0B0C10;
+    --card-color: #15161D;
+    --accent-color: #9D4EDD;
+  }
+
+  [data-theme='black-hacker'] {
+    --bg-color: #000000;
+    --card-color: #0a0a0a;
+    --accent-color: #ffffff;
+  }
+
+  [data-theme='green-hacker'] {
+    --bg-color: #020d02;
+    --card-color: #051a05;
+    --accent-color: #00FF41;
+  }
+
+  [data-theme='matrix'] {
+    --bg-color: #000000;
+    --card-color: #001100;
+    --accent-color: #008f11;
+  }
+
+  body {
+    @apply bg-bg-dark text-white font-sans antialiased transition-colors duration-300;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
