@@ -42,7 +42,7 @@ Follow these steps to get the project running on your local machine.
 
 1. **Clone the repository** (or download the source code):
    ```bash
-   git clone https://github.com/lunia290/VertexGuard.git
+   git clone https://github.com/AugustMoonDev/VertexGuard.git
    cd VertexGuard
    ```
 
