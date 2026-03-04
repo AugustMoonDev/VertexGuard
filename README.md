@@ -42,7 +42,7 @@ Follow these steps to get the project running on your local machine.
 
 1. **Clone the repository** (or download the source code):
    ```bash
-   git clone https://github.com/AugustMoonDev/VertexGuard.git
+   git clone https://github.com/augustdev290/VertexGuard.git
    cd VertexGuard
    ```
 
@@ -80,11 +80,11 @@ The output will be generated in the `dist/` folder.
 This is a frontend demonstration dashboard. For production use, ensure integration with a secure backend API and implement proper authentication/authorization flows.
 
 ---
-Built with ❤️ by Lunia290
+Built with ❤️ by augustdev290
 
 ## 🎉 Credits
 
-**Built by lunia290** – thank you for using and contributing!  
+**Built by augustdev290** – thank you for using and contributing!  
 Feel free to open issues or pull requests with improvements.
 
 ---
